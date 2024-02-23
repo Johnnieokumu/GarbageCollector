@@ -1,4 +1,6 @@
 
+
+
 <template>
   <v-app-bar color="#588722">
     <div>
@@ -19,4 +21,9 @@
     </div>
   </v-app-bar>
 </template>
-
+<script>
+    import Home from './Homepage.vue'
+    import Services from './Services.vue'
+    import Clients from './Clients.vue'
+    import About from './About.vue'
+</script>

@@ -17,7 +17,7 @@
             <div class="d-flex align-center flex-column">
               <v-card width="400">
                 <v-card-item>
-                  <v-card-title>Our Services</v-card-title>
+                  <v-card-title>{{ componentTitle }}}</v-card-title>
                 </v-card-item>
                 <v-card-text>
                     <v-list
@@ -60,6 +60,7 @@ return { services:[
     }
 ],
 componentTitle: 'Services at Clean Up'
+}   
 },
 methods: {
 increment() {
@@ -68,7 +69,7 @@ this.count++
 },
 mounted() {
 console.log(this.services)
-    }
+   }
 }
 
 </script>
